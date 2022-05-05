@@ -1,4 +1,3 @@
-# go-api-webservice
 # General Information
 it's a simple [gorilla/mux](https://github.com/gorilla/mux) based web service. His main purpose is checking URLs from an imaginary proxy. The web service returns policy value from DB for the requested URL or HTTP 204 (No Content) if such URL is not in the DB.
 # Requirements
