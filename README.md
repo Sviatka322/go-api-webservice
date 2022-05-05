@@ -14,7 +14,7 @@ Then update your MongoDB wtih a sample test data.
 ### Mac os
 `brew install go@1.13`
 # Usage
-### Build and rub project
+### Build and run project
 `go build`
 `./api-webservice`
 or run without building 
