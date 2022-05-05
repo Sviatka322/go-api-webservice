@@ -1,0 +1,37 @@
+info:
+  contact: {}
+paths:
+  /urlinfo/1/{url}/{search_query}:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: url
+        in: path
+        name: url
+        required: true
+        type: string
+      - description: query
+        in: path
+        name: search_query
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "204":
+          description: No Content
+          schema:
+            type: string
+        "404":
+          description: Not Found
+          schema:
+            type: string
+      summary: Get URL policy
+      tags:
+      - policy
+swagger: "2.0"
